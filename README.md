@@ -1,17 +1,17 @@
 
 #DESCRIPTION
-WHaTDa Insurance Problem. 
+Workshop on Teaching Test Design - Insurance Problem. 
 
-This is a set of excerises that was created to help train testers through some basic scenarios. 
+This is a set of exercises that was created to help train testers on how to design tests and how to approach a problem. 
 
 #DETAILS
-Please see the [wiki](https://github.com/kgdesouz/whatda/wiki).
+- Please see the [wiki](https://github.com/kgdesouz/whatda/wiki).
 
 
 #LICENSE
 The MIT License (MIT)
 
-Copyright (c) 2015 Ken De Souza (kgdesouz)
+Copyright (c) 2015 [Chris Eadie](https://twitter.com/cmeadie), [Jess Lancaster](https://twitter.com/jessclancaster), [Damian Synadinos](https://twitter.com/dsynadinos), [Ken De Souza](https://twitter.com/kgdesouz)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
