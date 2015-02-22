@@ -17,11 +17,10 @@ Please see the wiki.
 
 #introduction
 
-(like a blog post)
 
 # Getting started
-- include how to run this
-(installing sinatra, etc)
+- include how to run this locally
+- installing sinatra, etc
 
 What to start right away, just go to the website
 
