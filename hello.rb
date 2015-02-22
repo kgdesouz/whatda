@@ -55,23 +55,24 @@ end
 
 enable :sessions
 
-get '/sprint1' do
+get '/sprint/1' do
   erb :sprint1
 end
 
-post '/sprint1' do
+post '/sprint/1' do
   @var_age = check_age_sprint1(params[:insured_age])
   erb :reverse
 end
 
-get '/sprint2' do
+get '/sprint/2' do
   erb :sprint2
 end
 
-post '/sprint2' do
+post '/sprint/2' do
   @var_age = check_age_sprint2(params[:insured_age])
   erb :reverse
 end
+
 
 # sprint 3 - better UI, fixes to code base
 # sprint 4 - 
