@@ -2,7 +2,7 @@
 #DESCRIPTION
 Workshop on Teaching Test Design - Insurance Problem. 
 
-This is a set of exercises that was created to help train testers on how to design tests and how to approach a problem. 
+This is a set of exercises that was created to help teach testers about test design. 
 
 #DETAILS
 - Please see the [wiki](https://github.com/kgdesouz/whatda/wiki).
