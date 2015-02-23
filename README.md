@@ -11,7 +11,7 @@ Please see the [wiki](https://github.com/kgdesouz/whatda/wiki).
 #LICENSE
 The MIT License (MIT)
 
-Copyright (c) 2015 [Chris Eadie](https://twitter.com/cmeadie), [Jess Lancaster](https://twitter.com/jessclancaster), [Damian Synadinos](https://twitter.com/dsynadinos), [Ken De Souza](https://twitter.com/kgdesouz)
+Copyright (c) 2015 [Matthew Heusser](https://twitter.com/mheusser), [Chris Eadie](https://twitter.com/cmeadie), [Jess Lancaster](https://twitter.com/jessclancaster), [Damian Synadinos](https://twitter.com/dsynadinos), [Ken De Souza](https://twitter.com/kgdesouz)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
