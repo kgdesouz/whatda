@@ -6,18 +6,18 @@ def check_age_sprint1(age)
     logger = Logger.new(STDOUT)
     logger.level = Logger.const_get((ENV["LOG_LEVEL"] || "INFO").upcase)
 
-    logger.info "-------------INPUT GIVEN-------------"
+    logger.info "---check_age_sprint1: INPUT GIVEN-------------"
     logger.info age
 
     # to int
     if age.to_i == 0
-       @value = 'No insurance'
+      @insurance_age = 'No insurance'
     elsif age.to_i == 15
-       @value = 'No insurance'
+      @insurance_age = 'No insurance'
     elsif age.to_i == 16
-        @value = '$800 / Month'
+      @insurance_age = '$800 / Month'
     elsif age.to_i == 29
-        @value = '$600 / Month'
+      @insurance_age = '$600 / Month'
     end
     
     return @value
@@ -29,7 +29,7 @@ def check_age_sprint2(age)
     logger = Logger.new(STDOUT)
     logger.level = Logger.const_get((ENV["LOG_LEVEL"] || "INFO").upcase)
 
-    logger.info "-------------INPUT GIVEN-------------"
+    logger.info "---check_age_sprint2: INPUT GIVEN-------------"
     logger.info age
     
     if age.to_i.between?(0, 15)
@@ -61,7 +61,7 @@ end
 
 post '/story/1/sprint/1' do
   @var_age = check_age_sprint1(params[:insured_age])
-  erb :reverse
+  erb :sprint1
 end
 
 get '/story/1/sprint/2' do
@@ -70,7 +70,7 @@ end
 
 post '/story/1/sprint/2' do
   @var_age = check_age_sprint2(params[:insured_age])
-  erb :reverse
+  erb :sprint2
 end
 
 
